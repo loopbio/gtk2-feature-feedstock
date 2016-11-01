@@ -1,0 +1,20 @@
+package:
+  name: loopbio-gtk2
+  version: 1.0
+
+build:
+  number: 0
+  skip: true  # [not (linux and py2k)]
+  track_features:
+    - gtk2
+
+requirements:
+  build:
+    - gtk2
+  run:
+    - gtk2
+
+about:
+    home: http://www.gtk.org
+    license: LGPL version 2.1
+    summary: Multi-platform toolkit for creating graphical user interfaces. Metapackage for adding the gtk2 feature.
