@@ -9,8 +9,6 @@ build:
     - gtk2
 
 requirements:
-  build:
-    - gtk2
   run:
     - gtk2
 
