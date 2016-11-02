@@ -1,5 +1,5 @@
 package:
-  name: loopbio-gtk2
+  name: gtk2-feature
   version: 1.0
 
 build:
