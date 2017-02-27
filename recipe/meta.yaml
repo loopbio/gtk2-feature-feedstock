@@ -3,13 +3,8 @@ package:
   version: 1.0
 
 build:
-  number: 0
-  skip: true  # [not (linux and py2k)]
+  number: 1
   track_features:
-    - gtk2
-
-requirements:
-  run:
     - gtk2
 
 about:
